@@ -16,7 +16,8 @@
     "prettier": "prettier .ts test --write",
     "cz": "git-cz",
     "release": "standard-version",
-    "deploy": "npm run build && npm publish --access public"
+    "deploy": "npm run build && npm publish --access public",
+    "prepare": "husky install"
   },
   "dependencies": {
     "boxen": "^5.0.1",
